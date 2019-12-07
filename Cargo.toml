@@ -1,0 +1,14 @@
+[package]
+name = "dumb_logger"
+version = "0.1.0"
+edition = "2018"
+authors = ["Eric Seppanen <eds@reric.net>"]
+license = "MIT"
+description = "Log to stdout, nothing more"
+repository = "https://github.com/ericseppanen/dumb_logger"
+readme = "README.md"
+keywords = ["log", "logging", "logger"]
+categories = ["development-tools::debugging"]
+
+[dependencies]
+log = "0.4"
